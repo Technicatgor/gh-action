@@ -4,6 +4,7 @@
 const nextConfig = {
   output: "export",
   reactStrictMode: true,
+  // default is "/", if using gh action, must change it
   basePath: "/gh-action",
   assetPrefix: "/gh-action",
 
